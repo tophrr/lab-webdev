@@ -4,52 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab Web Development</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 2rem;
-        font-family: Arial, sans-serif;
-        color: #222;
-        background: #f4f4f4;
-      }
-
-      main {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 2rem;
-      }
-
-      h1 {
-        margin-top: 0;
-        color: #333;
-      }
-
-      ul {
-        padding-left: 1.5rem;
-      }
-
-      li {
-        margin: 0.75rem 0;
-      }
-
-      a {
-        color: #2563eb;
-        font-weight: 400;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <h1>Lab Web Development</h1>
-      <ul>
-        <li><a href="week-3/index.html">Week 3 - Basic HTML Structure</a></li>
-        <li><a href="week-7/index.html">Week 7 - CSS & Javascript</a></li>
-      </ul>
+    <main class="hero">
+      <div class="hero__content wrap">
+        <h1 class="heading heading--lg">Lab Web Development</h1>
+
+        <ul class="row-list">
+          <li>
+            <a class="link-inline" href="week03/index.html">
+              Week 3 - HTML Structure &amp; Multimedia Elements
+              <span class="arrow arrow--up-right" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a class="link-inline" href="week07/index.html">
+              Week 7 - CSS Animation &amp; Javascript DOM Manipulation
+              <span class="arrow arrow--up-right" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>
